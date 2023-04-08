@@ -4,170 +4,35 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-KK94CHFLLe+nY2dmCWGMq91rCGa5gtU4mk92HdvYe+M/SXH301p5ILy+dN9+nJOZ" crossorigin="anonymous">
-    <title>Document</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <title>BootStrap Website</title>
 </head>
 <body>
-    <nav class="navbar navbar-expand-lg bg-dark" data-bs-theme="dark">
-        <div class="container-fluid">
-            <a class="navbar-brand"href="#">Frontend Bootcamp</a>
-            <ul class="nav">
-                <li class="nav-item">
-                    <a class="nav-link" href="#">What you'll learn</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="#">Questions</a>
-                </li>
-                <li class="nav-item">
-                    <a class='nav-link'href="#">Instructions</a>
-                </li>  
-            </ul>
-        </div>  
-    </nav>
-    
-    <div class="container">
-        <div class="row">
-            <div class="col-lg-12">
-                <h1>Become a Web Developer</h1>
-            </div>
-            <div class="col-lg-5">
-                <p>We focus on teaching our students the fundamentals of the latest and greatest technologies to prepare them for their first dev role</p>
-            </div>
-            <div class="col-lg-12">
-                <button type="button"class ="btn btn-primary">Start The Enrolment</button>
-            </div>
 
-            <!-- Newsletter -->
-            <div class="container">
-                    <div class="d-md-flex justify-content-between align-items-center">
-                        <h3 class="col-lg-6">Sign up for our Newsletter</h3>
-                        <div class="input-group">
-                            <input type="text" class="form-control" placeholder="Enter Email" aria-label="Enter Email" aria-describedby="basic-addo">
-                            <span class="input-group-text" id="basic-addon2"class="col-lg-6">Button</span>
-                          </div>
-                    </div>
+    <!-- Navbar -->
+   <nav class="navbar navbar-dark bg-dark navbar-expand-lg">
+        <div class="container">
+            <a class="navbar-brand">Frontend BootCamp</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target='#navmenu'>
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navmenu">
+                <ul class="navbar-nav  ms-auto">
+                    <li class="nav-item">
+                        <a href="#learn" class="nav-link">What You'll Learn</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#Questions" class="nav-link">Questions</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#Instructors" class="nav-link">Instructors</a>
+                    </li>
+                </ul>  
             </div>
-
-            <!-- Cards -->
-            <div class="container d-flex">
-                <div class="card" style="width: 25rem;">
-                    <div class="card-body d-flex flex-column  align-items-center p-5">
-                      <h5 class="card-title">Virtual</h5>
-                      <p class="card-text text-center">Lorem ipsum dolor sit amet consectetur adipisicing elit. Enim quo exercitationem corporis reprehenderit maxime quod?</p>
-                      <button href="#" class="card-link">Another link</button>
-                    </div>
-                </div>  
-                <div class="card" style="width: 25rem;">
-                    <div class="card-body d-flex flex-column  align-items-center p-5">
-                      <h5 class="card-title">Virtual</h5>
-                      <p class="card-text text-center">Lorem ipsum dolor sit amet consectetur adipisicing elit. Enim quo exercitationem corporis reprehenderit maxime quod?</p>
-                      <button href="#" class="card-link">Another link</button>
-                    </div>
-                </div>  
-                <div class="card" style="width: 25rem;">
-                    <div class="card-body d-flex flex-column  align-items-center p-5">
-                      <h5 class="card-title">Virtual</h5>
-                      <p class="card-text text-center">Lorem ipsum dolor sit amet consectetur adipisicing elit. Enim quo exercitationem corporis reprehenderit maxime quod?</p>
-                      <button href="#" class="card-link">Another link</button>
-                    </div>
-                </div>  
-                
-            </div>
-            <!-- learn -->
-            <div class="container d-flex justify-content-between">
-                <img src="./image/react.png" width="500px" alt="icon" class="col-7">
-                <div class=" mt-5">
-                    <h2>Learn The Fundamentals</h2>
-                    <h4>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Distinctio quia adipisci illum dolorem obcaecati temporibus!</h4>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Assumenda distinctio dolores architecto alias voluptatum officiis amet ipsum corrupti. Dignissimos, neque repudiandae. Excepturi architecto fuga minima numquam labore enim sit eveniet?</p>
-                    <button type="button">>Read More</button>
-                </div>
-            </div>
-
-            <!-- react -->
-            <div class="container d-flex flex-row-reverse">
-                <img src="./image/static_assets.png" alt="icon" width="500px">
-                <div class="p-5 mt-5">
-                    <h2>Learn React</h2>
-                    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Similique deleniti possimus magnam corporis ratione facere!</p>
-                    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Cumque reiciendis eius autem eveniet mollitia, at asperiores suscipit quae similique laboriosam iste minus placeat odit velit quos, nulla architecto amet voluptates?</p>
-                    <button type="button">>Read More</button>
-                </div>
-            </div>
-            <div class="container row">
-                <div class="row-lg-12 p-5" >
-                    <h2 class="text-center">FREQUENTLY ASKED QUESTIONS</h2>
-                    <select class="form-select form-select-lg mb-3">
-                        <option>Open this select menu</option>
-                            <option value="1">Lorem ipsum dolor sit, amet onsectetur adipisicing elit. Adipisci, ex.</option> 
-                    </select>   
-                    <select class="form-select form-select-lg mb-3">
-                            <option>How Much does it cost to attend</option>
-                            <option value="2">Lorem ipsum dolor sit, amet onsectetur adipisicing elit. Adipisci, ex.</option> 
-                    </select>
-                    <select class="form-select form-select-lg mb-3">
-                            <option>What technologies do I need to know ?</option>
-                            <option value="3">Lorem ipsum dolor sit, amet onsectetur adipisicing elit. Adipisci, ex.</option> 
-                    </select>
-                </div>
-            </div>
-
-            <!-- instructors -->
-
-            <div class="container">
-                <div class="d-flex flex-column justify-content-start align-items-center">
-                    <h2>Our Instructors</h2>  
-                    <p>Our instructors are highly skilled</p>  
-                </div>
-                <div class="d-flex flex-row">
-                    <div class="card"style="width: 18rem;">
-                        <div class="card-body text-center p-3">
-                            <h3 class="card-title">Mary Jane</h3>
-                            <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-                            <a href="#" class="card-link">twitter</a>
-                            <a href="#" class="card-link">instagram</a>
-                          </div>
-                    </div>
-                    <div class="card"style="width: 18rem;">
-                        <div class="card-body text-center p-3">
-                            <h3 class="card-title">Mary Jane</h3>
-                            <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-                            <a href="#" class="card-link">twitter</a>
-                            <a href="#" class="card-link">instagram</a>
-                          </div>
-                    </div>
-                    <div class="card"style="width: 18rem;">
-                        <div class="card-body text-center p-3">
-                            <h3 class="card-title">Mary Jane</h3>
-                            <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-                            <a href="#" class="card-link">twitter</a>
-                            <a href="#" class="card-link">instagram</a>
-                          </div>
-                    </div>
-                    <div class="card"style="width: 18rem;">
-                        <div class="card-body text-center p-3">
-                            <h3 class="card-title">Mary Jane</h3>
-                            <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-                            <a href="#" class="card-link">twitter</a>
-                            <a href="#" class="card-link">instagram</a>
-                          </div>
-                    </div>
-                </div>
-            </div>
+        </div> 
+   </nav>
         
-            <!-- Contact Info -->
-            <div class="container">
-                <h2 class="text-center">Contact Info</h2>
-                <h5 class="border-bottom pb-2">Main Location</h5>
-                <h5 class="border-bottom  pb-2">Phone</h5>
-                <h5 class="border-bottom mb-5">Enrollement Details</h5>
-            </div>
-        </div>
-    </div>
-      <!-- copyright -->
-      <div class="bg-dark text-white p-5">
-        <h5 class="text-center">Copyright © 2023 Frontend Bootcamp</h5>
-    </div>
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ENjdO4Dr2bkBIFxQpeoTz1HIcje39Wm4jDKdf19U8gI4ddQ3GYNS7NTKfAdVQSZe" crossorigin="anonymous"></script>
+     
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
 </body>
 </html>
